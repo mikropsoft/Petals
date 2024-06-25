@@ -216,6 +216,11 @@ dependencies {
   // Glance
   implementation(libs.bundles.glance)
 
+  // Fuel
+  androidTestImplementation(libs.fuel) {
+    because("Specifically to make Screenshots and upload them to a localhost server")
+  }
+
 }
 
 tasks.withType<Test> {

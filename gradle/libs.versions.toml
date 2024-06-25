@@ -58,6 +58,7 @@ play-services-ads = "com.google.android.gms:play-services-ads:23.1.0"
 play-services-billing = "com.android.billingclient:billing:7.0.0"
 glance = { module = "androidx.glance:glance", version.ref = "glance" }
 glance-widgets = { module = "androidx.glance:glance-appwidget", version.ref = "glance" }
+fuel = "com.github.kittinunf.fuel:fuel:2.3.1"
 
 [bundles]
 androidx-test = [
